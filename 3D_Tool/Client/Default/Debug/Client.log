@@ -1,0 +1,58 @@
+﻿  Client.cpp
+  Stage2.cpp
+  Stage.cpp
+  RobotLaser.cpp
+  Player.cpp
+  MazeWall.cpp
+  MainApp.cpp
+  Logo.cpp
+  Load.cpp
+  HeavyMetal.cpp
+  BossWall.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  WaveEffect.cpp
+  WarpPiedestal.cpp
+  WarpEffect.cpp
+  Terrain.cpp
+  StraightCon.cpp
+  Shiny.cpp
+  Robot.cpp
+  PowerCell.cpp
+  Lift.cpp
+  LaunchEffect.cpp
+  Laser.cpp
+  FixedLaser.cpp
+  Explosion.cpp
+  Door.cpp
+  CornerCon.cpp
+  Conveyor.cpp
+  CloneEffect.cpp
+  CheckPoint.cpp
+  CheckEffect.cpp
+  BreakEffect.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Boss.cpp
+  코드를 생성하고 있습니다...
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  Switch.cpp
+  StaticMeshObj.cpp
+  StaticCamera.cpp
+  Smoke.cpp
+  RobotGun.cpp
+  Portal.cpp
+  Loading.cpp
+  LoadPlayer.cpp
+  Hatch.cpp
+  DynamicMeshObj.cpp
+  DynamicCamera.cpp
+  DoorFrame.cpp
+  Clone.cpp
+  Button.cpp
+  Ball.cpp
+  BackGround.cpp
+  Aim.cpp
+     ../Bin\Client.lib 라이브러리 및 ../Bin\Client.exp 개체를 생성하고 있습니다.
+  Client.vcxproj -> C:\Users\SH\Downloads\3D1_Tool\Client\Default\../Bin\Client.exe
+  Client.vcxproj -> ../Bin\Client.pdb (Full PDB)

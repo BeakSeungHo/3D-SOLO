@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{f9d345e0-8d22-4f7d-9d05-d2309dc3c7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc">
+      <UniqueIdentifier>{b7c117b5-9441-415c-8eda-0df470ffd295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Etc\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Etc\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{00d0d976-9b22-4323-876c-6bea41d82b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{a68329a8-8dff-48ef-bed4-e7851535b54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct">
+      <UniqueIdentifier>{c7717da8-b0ac-408d-88b8-e5739b25cfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\00. Logo">
+      <UniqueIdentifier>{4fe7535f-001a-4de2-9613-2fda789f22e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{74374b70-4b27-4a4c-95de-c5bc8b9819a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\00. Logo\00. BackGround">
+      <UniqueIdentifier>{ed5bb778-6c8c-4313-874e-cf5a5725ea97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Load">
+      <UniqueIdentifier>{5a960f58-e25a-42ac-8d60-98edca90a4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage">
+      <UniqueIdentifier>{874545bd-8998-431e-813e-7b3cf33ca6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. Stage2">
+      <UniqueIdentifier>{852e412a-e9df-4246-820a-df7294b45b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\04. Public">
+      <UniqueIdentifier>{3b2e8765-c206-4e51-9baa-4e89dd7ee517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\04. Public\00. Loading">
+      <UniqueIdentifier>{c257f3c1-f6d7-4d7c-813a-b17a060ed831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\01. Load">
+      <UniqueIdentifier>{008577c0-f324-4fea-90c8-1680ddd5aac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage">
+      <UniqueIdentifier>{73ac88b3-5341-40b4-9f66-652a835a320a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\00. Terrain">
+      <UniqueIdentifier>{39acbbe8-fed7-467d-a6a1-8ce9c2b6a52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\01. Player">
+      <UniqueIdentifier>{76a36e56-7d32-4123-9c22-bc2f9f841440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\01. Player\00. Aim">
+      <UniqueIdentifier>{8403e659-d47c-4004-8174-4727ecac76ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\01. Player\01. Clone">
+      <UniqueIdentifier>{e5392753-d989-4fd6-9d01-2861af4a8a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj">
+      <UniqueIdentifier>{92a374a7-6bd6-40ac-a652-8ddd2aa81b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\00. DoorFrame">
+      <UniqueIdentifier>{1e82a69c-1010-4786-ba56-6b4538bc4f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\01. Door">
+      <UniqueIdentifier>{9a6004cc-e32c-400c-bba7-7deeb139dc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\02. Switch">
+      <UniqueIdentifier>{26de2b0c-a361-4227-ac82-0b3864e81da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\03. Ball">
+      <UniqueIdentifier>{7d223530-d2cb-407b-b37a-3e6fffc98421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor">
+      <UniqueIdentifier>{d672b7d0-1fc7-49a5-815b-34e0237685c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor\00. Straight">
+      <UniqueIdentifier>{62d5d4a5-71f5-43a9-8300-a737d8fca459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor\01. Conner">
+      <UniqueIdentifier>{fd780cc4-d8c5-4761-bc8e-62fb33b99e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\05. MazeWall">
+      <UniqueIdentifier>{2d39bb8c-72f0-4469-ab3f-c47fe7cf8ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\06. WarpPiedestal">
+      <UniqueIdentifier>{56429b7b-fccb-4122-adfa-f6d163495f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\07. HeavyMetal">
+      <UniqueIdentifier>{eada0eb3-9ac3-409a-913f-b3e39434ea95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\08. Lift">
+      <UniqueIdentifier>{b2cb37d1-ce52-4b62-b7cb-98cc1f00913e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\09. PowerCell">
+      <UniqueIdentifier>{4ddb5743-9170-4361-86c2-6bee6f5d2797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\10. RobotGun">
+      <UniqueIdentifier>{7b158398-1119-413c-b75d-efd8880fd827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser">
+      <UniqueIdentifier>{394d29d0-b6ca-4fcd-a274-8edec570fc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser\00. RobotLaser">
+      <UniqueIdentifier>{1fc1dd19-9bef-4bb5-9d7d-e79280e0a788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser\01. FixedLaser">
+      <UniqueIdentifier>{914d8fbd-3792-4de8-aa89-630dc2684ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\12. Shiny">
+      <UniqueIdentifier>{0747b836-ba75-4c85-ba1f-3f6bf7a594fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\13. Hatch">
+      <UniqueIdentifier>{6e482eb0-248a-4f83-8a0b-648e8f4719b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\14. Portal">
+      <UniqueIdentifier>{8e6768e8-3d0e-49fc-8582-11467fbcc813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\15. BossWall">
+      <UniqueIdentifier>{bc4d9ce3-7929-45a1-a188-64d21a84200c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\03. DynamicMeshObj">
+      <UniqueIdentifier>{4c5da9e2-dd5a-436c-b243-e8b12a7f2695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\03. DynamicMeshObj\01. Boss">
+      <UniqueIdentifier>{4f9cbc2f-7178-4e0c-bb9c-61c6aba6e915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\03. DynamicMeshObj\00. Robot">
+      <UniqueIdentifier>{be91406e-d0e1-4ca6-b331-13525f0145b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect">
+      <UniqueIdentifier>{02a40da8-c5b2-4ff3-a9ca-303a1cc09ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect\00. WarpEffect">
+      <UniqueIdentifier>{3393f4b8-91b6-4fc7-a647-fb7e461d09fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect\01. Explosion">
+      <UniqueIdentifier>{fa624acd-8b3a-4421-91a2-7a668b72ca7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect\02. CloneEffect">
+      <UniqueIdentifier>{ed71b3d6-f189-45ef-bcbe-b37a15b06faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\03. Public">
+      <UniqueIdentifier>{296ec397-87b7-41dd-b404-e4eb6b303fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\03. Public\00. StaticCamera">
+      <UniqueIdentifier>{27dc9c3d-8c00-4a6b-a024-c6260ea4975a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\03. Public\01. DynamicCamera">
+      <UniqueIdentifier>{0367bbd1-a428-42ef-a2ea-87ebf6e2ec30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\03. Public\03. SoundMgr">
+      <UniqueIdentifier>{ae928791-68c5-4b57-970d-e129f5b09325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\00. Logo\01. Button">
+      <UniqueIdentifier>{04dbad79-fab0-4047-8b72-883d02bbefc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\00. Logo\02. Smoke">
+      <UniqueIdentifier>{b40b4321-69c1-4466-af3d-9e8173e86425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\01. Load\00. LoadPlayer">
+      <UniqueIdentifier>{b9eed5e4-f00d-4da2-9760-1ace6b69e5a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\02. StaticMeshObj\16 CheckPoint">
+      <UniqueIdentifier>{9d6cef04-4db6-4f29-bdf1-72376b50b640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect\03. CheckEffect">
+      <UniqueIdentifier>{6b54f6da-61a9-45c4-8144-350276e246ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect\04. LaunchEffect">
+      <UniqueIdentifier>{59f51c10-fea4-4eff-898a-d77c81e4bced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect\05. WaveEffect">
+      <UniqueIdentifier>{009d9998-4832-45d2-a2cd-031cfeac9b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObejct\02. Stage\04. Effect\06. BreakEffect">
+      <UniqueIdentifier>{a633cca3-e388-4e09-a607-017fc5afaffb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Etc\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Defines.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Enum.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Function.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Macro.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Typedef.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BackGround.h">
+      <Filter>02. GameObejct\00. Logo\00. BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage.h">
+      <Filter>01. Scene\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Terrain.h">
+      <Filter>02. GameObejct\02. Stage\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Player.h">
+      <Filter>02. GameObejct\02. Stage\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Loading.h">
+      <Filter>01. Scene\04. Public\00. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicCamera.h">
+      <Filter>02. GameObejct\03. Public\01. DynamicCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticCamera.h">
+      <Filter>02. GameObejct\03. Public\00. StaticCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StaticMeshObj.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DynamicMeshObj.h">
+      <Filter>02. GameObejct\02. Stage\03. DynamicMeshObj</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\DoorFrame.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\00. DoorFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Ball.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\03. Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Switch.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\02. Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Door.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\01. Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Conveyor.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\MazeWall.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\05. MazeWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WarpPiedestal.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\06. WarpPiedestal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Aim.h">
+      <Filter>02. GameObejct\02. Stage\01. Player\00. Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\HeavyMetal.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\07. HeavyMetal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Stage2.h">
+      <Filter>01. Scene\03. Stage2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Lift.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\08. Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RobotGun.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\10. RobotGun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Robot.h">
+      <Filter>02. GameObejct\02. Stage\03. DynamicMeshObj\00. Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PowerCell.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\09. PowerCell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Laser.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\RobotLaser.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser\00. RobotLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FixedLaser.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser\01. FixedLaser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\StraightCon.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor\00. Straight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CornerCon.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor\01. Conner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Shiny.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\12. Shiny</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Hatch.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\13. Hatch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Portal.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\14. Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Boss.h">
+      <Filter>02. GameObejct\02. Stage\03. DynamicMeshObj\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BossWall.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\15. BossWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Clone.h">
+      <Filter>02. GameObejct\02. Stage\01. Player\01. Clone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WarpEffect.h">
+      <Filter>02. GameObejct\02. Stage\04. Effect\00. WarpEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Explosion.h">
+      <Filter>02. GameObejct\02. Stage\04. Effect\01. Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CloneEffect.h">
+      <Filter>02. GameObejct\02. Stage\04. Effect\02. CloneEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\SoundMgr.h">
+      <Filter>02. GameObejct\03. Public\03. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Load.h">
+      <Filter>01. Scene\01. Load</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Button.h">
+      <Filter>02. GameObejct\00. Logo\01. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Smoke.h">
+      <Filter>02. GameObejct\00. Logo\02. Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LoadPlayer.h">
+      <Filter>02. GameObejct\01. Load\00. LoadPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CheckPoint.h">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\16 CheckPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\CheckEffect.h">
+      <Filter>02. GameObejct\02. Stage\04. Effect\03. CheckEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\WaveEffect.h">
+      <Filter>02. GameObejct\02. Stage\04. Effect\05. WaveEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\LaunchEffect.h">
+      <Filter>02. GameObejct\02. Stage\04. Effect\04. LaunchEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\BreakEffect.h">
+      <Filter>02. GameObejct\02. Stage\04. Effect\06. BreakEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Etc\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackGround.cpp">
+      <Filter>02. GameObejct\00. Logo\00. BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage.cpp">
+      <Filter>01. Scene\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Terrain.cpp">
+      <Filter>02. GameObejct\02. Stage\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>02. GameObejct\02. Stage\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>01. Scene\04. Public\00. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicCamera.cpp">
+      <Filter>02. GameObejct\03. Public\01. DynamicCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticCamera.cpp">
+      <Filter>02. GameObejct\03. Public\00. StaticCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticMeshObj.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DynamicMeshObj.cpp">
+      <Filter>02. GameObejct\02. Stage\03. DynamicMeshObj</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DoorFrame.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\00. DoorFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Ball.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\03. Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Switch.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\02. Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Door.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\01. Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Conveyor.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MazeWall.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\05. MazeWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WarpPiedestal.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\06. WarpPiedestal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Aim.cpp">
+      <Filter>02. GameObejct\02. Stage\01. Player\00. Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HeavyMetal.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\07. HeavyMetal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Stage2.cpp">
+      <Filter>01. Scene\03. Stage2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Lift.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\08. Lift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RobotGun.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\10. RobotGun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Robot.cpp">
+      <Filter>02. GameObejct\02. Stage\03. DynamicMeshObj\00. Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PowerCell.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\09. PowerCell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Laser.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RobotLaser.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser\00. RobotLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FixedLaser.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\11. Laser\01. FixedLaser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StraightCon.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor\00. Straight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CornerCon.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\04. Conveyor\01. Conner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shiny.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\12. Shiny</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Hatch.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\13. Hatch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Portal.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\14. Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Boss.cpp">
+      <Filter>02. GameObejct\02. Stage\03. DynamicMeshObj\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BossWall.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\15. BossWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Clone.cpp">
+      <Filter>02. GameObejct\02. Stage\01. Player\01. Clone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WarpEffect.cpp">
+      <Filter>02. GameObejct\02. Stage\04. Effect\00. WarpEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Explosion.cpp">
+      <Filter>02. GameObejct\02. Stage\04. Effect\01. Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CloneEffect.cpp">
+      <Filter>02. GameObejct\02. Stage\04. Effect\02. CloneEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundMgr.cpp">
+      <Filter>02. GameObejct\03. Public\03. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Load.cpp">
+      <Filter>01. Scene\01. Load</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Button.cpp">
+      <Filter>02. GameObejct\00. Logo\01. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Smoke.cpp">
+      <Filter>02. GameObejct\00. Logo\02. Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadPlayer.cpp">
+      <Filter>02. GameObejct\01. Load\00. LoadPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CheckPoint.cpp">
+      <Filter>02. GameObejct\02. Stage\02. StaticMeshObj\16 CheckPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CheckEffect.cpp">
+      <Filter>02. GameObejct\02. Stage\04. Effect\03. CheckEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WaveEffect.cpp">
+      <Filter>02. GameObejct\02. Stage\04. Effect\05. WaveEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LaunchEffect.cpp">
+      <Filter>02. GameObejct\02. Stage\04. Effect\04. LaunchEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BreakEffect.cpp">
+      <Filter>02. GameObejct\02. Stage\04. Effect\06. BreakEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>99. Etc\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Etc\소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
